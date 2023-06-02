@@ -18,11 +18,25 @@ export const config = [
         }),
       }),
     ],
+    nakama: {
+      host: 'sheesh-rpc.dvcode.tech',
+      port: '443',
+      serverkey: 'defaultkey',
+      useSSL: true, // Enable if server is run with an SSL certificate
+      trace: true,
+    },
   },
   {
     api_url: 'https://stg-api.anitolegends.com/v2',
     supported_chains: [bsc] as Chain[],
     providers: [publicProvider()],
+    nakama: {
+      host: 'sheesh-rpc.dvcode.tech',
+      port: '443',
+      serverkey: 'defaultkey',
+      useSSL: true, // Enable if server is run with an SSL certificate
+      trace: false,
+    },
   },
 ];
 

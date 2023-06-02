@@ -12,6 +12,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@heroiclabs/nakama-js": "^2.6.1",
     "@hookstate/core": "^4.0.1",
     "@hookstate/devtools": "^4.0.0",
     "axios": "^1.4.0",
